@@ -22,11 +22,7 @@ export class ProfileComponent implements OnInit {
     })
   }
 
-  resetForm(): void {
-    // this.customerInfo.get('name')?.setValue('');
-    // this.customerInfo.get('phone')?.setValue('');
-    // this.customerInfo.get('email')?.setValue('');
-    // this.customerInfo.get('address')?.setValue('');
+  resetForm(): void {    
     this.customerInfo.reset();
   }
 
